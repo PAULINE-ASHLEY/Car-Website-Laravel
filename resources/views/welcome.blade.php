@@ -1,3 +1,4 @@
+@include('layouts.header')
 <!doctype html>
 <html>
 <head>
@@ -11,3 +12,4 @@
   </h1>
 </body>
 </html>
+@include('layouts.footer')
