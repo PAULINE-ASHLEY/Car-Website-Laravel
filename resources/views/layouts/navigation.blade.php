@@ -10,13 +10,13 @@
 
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                    <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
+                    <x-nav-link :href="url('/')" :active="request()->routeIs('dashboard')">
                         Home
                     </x-nav-link>
-                    <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
-                        Carlisting
+                    <x-nav-link :href="url('/car-for-sale')" :active="request()->routeIs('dashboard')">
+                        Car for Sale
                     </x-nav-link>
-                    <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
+                    <x-nav-link :href="url('/contact-us')" :active="request()->routeIs('dashboard')">
                         Contact Us
                     </x-nav-link>
                     {{-- <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">

@@ -19,9 +19,9 @@
         Navigation Bar
       </h1>
       <ul class="text-white">
-        <li><a href="{{ route('login') }}">Home</a></li>
-        <li><a href="{{ route('login') }}">Carlisting</a></li>
-        <li><a href="{{ route('login') }}">Contact Us</a></li>
+        <li><a href="{{ url('/') }}">Home</a></li>
+        <li><a href="{{ url('/car-for-sale') }}">Car for Sale</a></li>
+        <li><a href="{{ url('/contact-us') }}">Contact Us</a></li>
         <li><a href="{{ route('register') }}">Sign Up</a></li>
         <li><a href="{{ route('login') }}">Sign In</a></li>
       </ul>

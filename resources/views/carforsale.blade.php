@@ -8,7 +8,7 @@
 </head>
 <body>
   <div class="mx-24 border-solid border-l-4 border-blue-600 px-4 font-semibold mt-10 text-lg">
-    CARS OF THE WEEK
+    CARS FOR SALE
   </div>
 
 
@@ -68,12 +68,6 @@
  </div>
 
 
-
- <div class="mx-24 border-solid border-l-4 border-blue-600 px-4 font-semibold mt-10 text-lg">
-  POPULAR BRANDS
-</div>
-
-
  <div class="grid grid-cols-4 mx-24 mt-6">
   <div class="px-4">
     <img src="{{ asset('/front/assets/images/landroverrangeroversport.jpg') }}">
@@ -128,11 +122,6 @@
     </div>
   </div>
  </div>
-
-
- <div class="mx-24 border-solid border-l-4 border-blue-600 px-4 font-semibold mt-10 text-lg">
-  MOST PURCHASED CARS
-</div>
 
 
  <div class="grid grid-cols-4 mx-24 mt-6">

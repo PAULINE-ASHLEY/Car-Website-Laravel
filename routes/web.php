@@ -20,6 +20,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/car-for-sale', function () {
+    return view('carforsale');
+});
+
+Route::get('/contact-us', function () {
+    return view('contactus');
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
